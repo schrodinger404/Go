@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	// iterate over slice
@@ -42,6 +44,4 @@ func main() {
 	for i,c:= range s{
 		fmt.Println(i,c)
 	}
-
-
 }
