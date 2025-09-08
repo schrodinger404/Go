@@ -13,7 +13,7 @@ func print(vals []int) {
 	}
 }
 
-// using generics, this func will receive any type
+// using generics, this func will receive any type, you can also use comparable or interface{} in the place of any keyword
 func printAny[T any](vals []T)  {
 
 	for _, v := range vals {
